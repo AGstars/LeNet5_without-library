@@ -73,8 +73,8 @@ def val(dataloader, model, loss_fn):
 
         return current/n
 
-# 开始训练
-epoch = 2
+# 开始训练（50）次或以上效果为佳
+epoch = 50
 min_acc = 0
 for t in range(epoch):
     print(f'epoch{t+1}\n------------------')
